@@ -1,0 +1,78 @@
+.article-pop-up-right {
+	-webkit-box-shadow: 0 0 8px 1px #444;
+	box-shadow: 0 0 8px 1px #444;
+	z-index: 999;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	background: #fff;
+	width: 300px;
+	padding: 15px;
+	border: 1px solid #000;
+	border-right: 0;
+	border-bottom: 0;
+	display:none;
+}
+
+.article-pop-up-right h2 {
+	background:none;
+	text-align:left;
+	border:0;
+	padding:0;
+	margin:15px 0;
+}
+
+.article-pop-up-right h2 a{
+	font-size: 15px;
+	color: #222;
+	line-height: 18px;
+	text-decoration:none;
+}
+
+.article-pop-up-right h2 a:hover{
+	text-decoration:underline;
+}
+
+.article-pop-up-right a {
+	color: #af1f24;
+}
+
+.article-pop-up-right a:hover {
+	color: #222;
+}
+
+.art-rel-pop-up {
+	text-transform: uppercase;
+	color: #777;
+	font-size: 12px;
+	margin-top:5px;
+}
+
+.art-pop-up-close {
+	cursor: pointer;
+	width: 20px;
+	float: right;
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid #999;
+	padding: 2px 1px 2px 0;
+	line-height: 15px;
+}
+
+.article-pop-up-right-content .more-link{
+	padding-left:17px;
+	background:url(http://ems.pgpic.com/img/bul2.gif) no-repeat left center;
+	font-weight:bold;
+	margin:0px 0px 5px 0;
+	font-size:13px;
+}
+
+.article-pop-up-right .article-pop-up-right-content .more-link a{
+	text-decoration:none;
+}
+
+.article-pop-up-right-content .more-link a, .article-pop-up-right-content .more-link a:hover {
+	color:#1b6f9a;
+	text-decoration:underline;
+}
