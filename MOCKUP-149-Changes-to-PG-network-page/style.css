@@ -1,0 +1,15 @@
+
+
+/***********************************************
+***** MOCKUP-149 - Changes to PG network page **
+***********************************************/
+	
+	.logo-images-row a{
+		display:inline-block;
+		margin-right:14px;
+	}
+	
+	.logo-images-row img{
+		width:147px;
+		border:1px solid #d5d5d5;
+	}
