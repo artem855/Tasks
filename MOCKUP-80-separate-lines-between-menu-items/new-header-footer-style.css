@@ -158,20 +158,30 @@
 	position:none;
 	background:none;
 	margin-top:1px;
+	margin-left:-1px;
 	border-color: #ffd427 #660000 #660000 #FFCC00;
     border-bottom-width: 0px;
 }
 
-#main-menu .first, #main-menu .first:hover {
-	padding-top:8px;
+#main-menu .first, #main-menu .first:hover {	
+	padding-top:0px;
 	padding-left:0px;
 	border-left: 0px solid #ffd940;
 	background:none !important;
 }
 
+#main-menu .first a, #main-menu .first a:hover, #main-menu .first:hover a {
+	border-left: 1px solid #edc118 !important;
+	padding: 10px;
+}
+
+#main-menu .first a:hover, #main-menu .first:hover a {
+	padding:10px 10px 6px 10px;
+}
+
 #main-menu .first:hover a {
 	background:none !important;
-    border-left: 0px;
+	border-right: 1px solid #edc118;
 }
 
 #main-menu li a {
