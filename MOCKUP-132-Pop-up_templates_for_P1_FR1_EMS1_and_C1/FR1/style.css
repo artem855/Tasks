@@ -12,6 +12,7 @@
 	border-right: 0;
 	border-bottom: 0;
 	display:none;
+	z-index:99999;
 }
 
 .article-pop-up-right h2 {
